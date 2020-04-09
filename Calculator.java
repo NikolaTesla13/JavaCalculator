@@ -10,6 +10,10 @@ import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import javax.swing.SwingUtilities;
+import java.awt.Color;
+import java.awt.FlowLayout;
+import java.awt.Font;
 
 public class Calculator implements ActionListener{
 
@@ -30,6 +34,7 @@ public class Calculator implements ActionListener{
     private JButton minusButton = new JButton("-");
     private JButton multiplicationButton = new JButton("*");
     private JButton divisionButton = new JButton("/");
+
 
     private int firstNumber = 0;
     private int secondNumber;
@@ -100,6 +105,82 @@ public class Calculator implements ActionListener{
         panel.add(button9);
         panel.add(deleteButton);
         //panel.add(resultLabel);
+        button1.setBackground(new Color(59, 89, 182));
+        button1.setForeground(Color.WHITE);
+        button1.setFocusPainted(false);
+        button1.setFont(new Font("Tahoma", Font.BOLD, 12));
+
+        button2.setBackground(new Color(59, 89, 182));
+        button2.setForeground(Color.WHITE);
+        button2.setFocusPainted(false);
+        button2.setFont(new Font("Tahoma", Font.BOLD, 12));
+
+        button3.setBackground(new Color(59, 89, 182));
+        button3.setForeground(Color.WHITE);
+        button3.setFocusPainted(false);
+        button3.setFont(new Font("Tahoma", Font.BOLD, 12));
+
+        button4.setBackground(new Color(59, 89, 182));
+        button4.setForeground(Color.WHITE);
+        button4.setFocusPainted(false);
+        button4.setFont(new Font("Tahoma", Font.BOLD, 12));        
+
+        button5.setBackground(new Color(59, 89, 182));
+        button5.setForeground(Color.WHITE);
+        button5.setFocusPainted(false);
+        button5.setFont(new Font("Tahoma", Font.BOLD, 12));
+
+        button5.setBackground(new Color(59, 89, 182));
+        button5.setForeground(Color.WHITE);
+        button5.setFocusPainted(false);
+        button5.setFont(new Font("Tahoma", Font.BOLD, 12));
+
+        button6.setBackground(new Color(59, 89, 182));
+        button6.setForeground(Color.WHITE);
+        button6.setFocusPainted(false);
+        button6.setFont(new Font("Tahoma", Font.BOLD, 12));
+
+        button7.setBackground(new Color(59, 89, 182));
+        button7.setForeground(Color.WHITE);
+        button7.setFocusPainted(false);
+        button7.setFont(new Font("Tahoma", Font.BOLD, 12));
+
+        button8.setBackground(new Color(59, 89, 182));
+        button8.setForeground(Color.WHITE);
+        button8.setFocusPainted(false);
+        button8.setFont(new Font("Tahoma", Font.BOLD, 12));
+
+        button9.setBackground(new Color(59, 89, 182));
+        button9.setForeground(Color.WHITE);
+        button9.setFocusPainted(false);
+        button9.setFont(new Font("Tahoma", Font.BOLD, 12));
+
+        deleteButton.setBackground(new Color(59, 89, 182));
+        deleteButton.setForeground(Color.WHITE);
+        deleteButton.setFocusPainted(false);
+        deleteButton.setFont(new Font("Tahoma", Font.BOLD, 12));
+
+        minusButton.setBackground(new Color(59, 89, 182));
+        minusButton.setForeground(Color.WHITE);
+        minusButton.setFocusPainted(false);
+        minusButton.setFont(new Font("Tahoma", Font.BOLD, 12));
+
+        plusButton.setBackground(new Color(59, 89, 182));
+        plusButton.setForeground(Color.WHITE);
+        plusButton.setFocusPainted(false);
+        plusButton.setFont(new Font("Tahoma", Font.BOLD, 12));
+
+        multiplicationButton.setBackground(new Color(59, 89, 182));
+        multiplicationButton.setForeground(Color.WHITE);
+        multiplicationButton.setFocusPainted(false);
+        multiplicationButton.setFont(new Font("Tahoma", Font.BOLD, 12));
+
+        divisionButton.setBackground(new Color(59, 89, 182));
+        divisionButton.setForeground(Color.WHITE);
+        divisionButton.setFocusPainted(false);
+        divisionButton.setFont(new Font("Tahoma", Font.BOLD, 12));
+
+        mathematical_operation.setFont(new Font("Tahoma", Font.BOLD, 12));
     }
 
 	@Override
