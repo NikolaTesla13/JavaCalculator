@@ -1,4 +1,3 @@
-
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -56,7 +55,7 @@ public class Calculator implements ActionListener{
     }
 
     public void create_window() {
-        panel.setLayout(new GridLayout(3, 3, 10, 10));
+        panel.setLayout(new GridLayout(3, 3, 0, 0));
 
         add_stuff();
 
